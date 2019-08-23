@@ -20,6 +20,8 @@ services:
     volumes:
       - ./client/:/usr/app
       - /usr/app/node_modules
+    environment:
+      - CHOKIDAR_USEPOLLING=true
     depends_on:
       - server
     ports:

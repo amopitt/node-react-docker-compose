@@ -10,7 +10,9 @@
   "author": "Peter Coles",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "express-async-await": "^1.1.0",
+    "node-fetch": "^2.6.0"
   },
   "devDependencies": {
     "nodemon": "^1.19.0"
